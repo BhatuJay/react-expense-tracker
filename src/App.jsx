@@ -5,6 +5,7 @@ import { RootLayout } from './components/RootLayout';
 import { Home } from './pages/Home'
 import { Register } from './pages/Register';
 import { Login } from './pages/Login';
+import { Analytics } from "@vercel/analytics/react"
 
 const routes = createBrowserRouter([
   {
@@ -28,7 +29,12 @@ const routes = createBrowserRouter([
 ])
 
 function App() {
-  return <RouterProvider router={routes} />
+  return (
+    <>
+      <RouterProvider router={routes} />
+      <Analytics />
+    </>
+  )
 }
 
 export default App
