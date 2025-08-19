@@ -1,0 +1,8 @@
+.pie-chart-loading,
+.pie-chart-empty {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+  margin: 40px 0;
+}

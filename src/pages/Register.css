@@ -1,0 +1,141 @@
+.register-bg {
+    background-color: #f6f7fb;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.image-upload-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ebf7ff;
+}
+
+.upload-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #6495ed;
+    color: white;
+    font-size: 22px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.register {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    /* border: 2px solid #e8f4ff; */
+}
+
+.register h1,
+.register .para,
+.register-dark h1,
+.register-dark .para {
+    text-align: center;
+}
+
+.register .para,
+.register-dark .para {
+    margin-bottom: 10px;
+}
+
+.register label,
+.register-dark label {
+    display: block;
+}
+
+.register input,
+.register-dark input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 2px solid #ebf7ff;
+    background-color: #ebf7ff;
+}
+
+.register .invalid-input,
+.register-dark .invalid-input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    background-color: #ffd0d2;
+    /* margin: 0 0 20px; */
+}
+
+.register .input:focus-visible,
+.register-dark .input:focus-visible {
+    outline: 2px solid #6495ed;
+}
+
+.register .invalid-input:focus-visible,
+.register-dark .invalid-input:focus-visible {
+    outline: none;
+}
+
+.register-error {
+    color: red;
+    margin-bottom: 14px;
+}
+
+.btn-disable {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #966670;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid #966670;
+    font-size: 16px;
+    transition: 0.3s all;
+    opacity: 0.65;
+}
+
+.register-red-btn {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    margin: 24px auto 0;
+}
+
+.login-here {
+    color: red;
+}
+
+.register-password-input {
+    position: relative;
+}
+
+.register-eye {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 31px;
+    right: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background-color: aliceblue;
+    position: fixed;
+    padding: 30px;
+    width: 550px;
+    height: 250px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 10px;
+}
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.alert-msg {
+    font-size: 18px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+}
+
+.alert-msg-dark {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-grp {
+    align-self: flex-end;
+}
+
+.btn-grp button {
+    margin: 0 10px;
+}

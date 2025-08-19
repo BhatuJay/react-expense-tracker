@@ -1,0 +1,25 @@
+/* Avatar styling (optional) */
+.avatar {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 20px 0 0;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+/* Tooltip container */
+.avatar-tooltip {
+    position: absolute;
+    pointer-events: none;
+    display: none;
+    z-index: 999;
+}
+
+.avatar-tooltip img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
