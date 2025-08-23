@@ -15,6 +15,20 @@
 
 ---
 
+## 🚀 Live Demo  
+
+<p align="center">
+  <a href="https://react-expense-tracker-delta-puce.vercel.app" target="_blank">
+    <img src="public/ExpenseTracker.png" alt="Live Demo" width="200" />
+  </a>
+</p>
+
+<p align="center">
+  👉 <a href="https://react-expense-tracker-delta-puce.vercel.app" target="_blank">Click here or LOGO to try Expense Tracker</a>
+</p>
+
+---
+
 ## 🌟 Project Preview
 
 <p align="center">
